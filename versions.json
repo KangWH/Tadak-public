@@ -1,0 +1,33 @@
+{
+  "framework": {
+    "latest": "0.1.0",
+    "readableFormat": {
+      "minimum": 1,
+      "maximum": 2
+    }
+  },
+  "keyboardData": {
+    "formatLatest": 1,
+    "readableFormat": {
+      "minimum": 1,
+      "maximum": 2
+    }
+  },
+  "apps": {
+    "macos": {
+      "latest": "0.1.0",
+      "latestBuild": 1,
+      "minimum": "0.1.0"
+    },
+    "ios": {
+      "latest": "0.1.0",
+      "latestBuild": 1,
+      "minimum": "0.1.0"
+    },
+    "editor": {
+      "latest": "0.1.0",
+      "latestBuild": 1,
+      "minimum": "0.1.0"
+    }
+  }
+}
