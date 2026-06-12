@@ -80,6 +80,8 @@ pkill -9 Tadak-macOS
   - Qwertz
   - Azerty
 
+이외에도 [추가 키보드 데이터](./Keyboards/)를 불러와 사용할 수 있습니다.
+
 
 ## 추가 기능
 
