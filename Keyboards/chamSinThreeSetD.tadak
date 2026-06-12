@@ -1,0 +1,2185 @@
+{
+  "inputProcessorLevel" : "basic",
+  "metadata" : {
+    "formatVersion" : 1,
+    "description" : "참신세벌식D 자판 사용법(제작자 : 공빈)\r\n\r\n1) 타자 치는 팔의 각도 : 50°~ 60°\r\n\r\n2) 타자 시의 손가락 배정\r\n\r\n① 오른손 : 초성 자음과 모음(ㅗ,ㅜ)\r\n  - 초성 : u자리(검지)\r\n  - 숫자 : 7(검지), 8(중지), 9(약지), 0(소지)\r\n  - 오른손 ㅜ,마침표(약지), 쉼표(중지)\r\n\r\n② 왼손 : 모음과 받침 자음\r\n  - 모음 : r자리(검지), c자리(검지), x자리(중지), z자리(약지)\r\n  - 받침 : r,c자리(중지 또는 검지), x자리(중지), z자리(약지)\r\n  - 숫자 : 1,2(소지), 3(약지), 4(중지), 5,6(검지)\r\n\r\n③ 나머지 자리는 기존의 타법과 같음\r\n\r\n3) 자모 입력 방법\r\n\r\n① 초성 자음, 모음, 받침 자음 입력\r\n  - 초성 자음 : 오른손 자음 입력\r\n  - 오론손 모음(ㅗ,ㅜ) : 초성 자음을 친 후 연속 입력\r\n  - 모음 : 왼손 모음 입력\r\n  - 받침 자음 : 왼손 모음을 친 후 연속 입력\r\n\r\n② 초성 쌍자음(ㄲ,ㄸ,ㅃ,ㅆ,ㅉ) 입력\r\n  - ㅇ+ㄱ→ㄲ,ㅇ+ㄷ→ㄸ,ㅇ+ㅂ→ㅃ,ㅇ+ㅅ→ㅆ,ㅈ+ㅇ→ㅉ 권장,\r\n     ㅉ은 ㅈ+ㅇ에서 검지+중지의 조합으로 타자\r\n  - ㄲ,ㄸ,ㅃ,ㅆ,ㅉ은 ㄱ,ㄷ,ㅂ,ㅅ,ㅈ키 연타로도 입력 가능\r\n\r\n③ 복모음(ㅘ,ㅚㅙ,ㅟ,ㅝ,ㅞ)의 입력\r\n  - 음절 조합 중 : 오른손 모음(ㅗ,ㅜ) + 왼손 모음 \r\n  - 초성 없이 낱자 입력 : 왼손의 모음만으로 조합\r\n    (단, ㅣ+ㅏ→ㅑ)\r\n\r\n④ 아래ㆍ 입력 : 윗글쇠(shift)+m키에 배치\r\n\r\n⑤ 초성 ㅋ과 받침 ㅋ의 입력\r\n  - 초성 ㅋ : 오른손으로 b키 타자\r\n  - 받침 ㅋ : f키에 갈마들이로 배치\r\n\r\n⑥ 겹받침의 입력\r\n  - ㅆ : q자리에 배치\r\n  - ㄲ,ㄻ,ㄾ : 받침 자음 순서대로 입력 권장\r\n  - ㅄ,ㄺ,ㄿ : 받침 자음 역순 입력 권장\r\n  - ㄶ,ㅀ,ㄼ,ㄵ,ㄳ,ㄽ : ㅇ+ㄴ→ㄶ,ㅇ+ㄹ→ㅀ,ㄴ+ㅁ→ㄼ,ㄱ+ㄴ→ㄵ,\r\n    ㄱ+ㅆ→ㄳ,ㄹ+ㅆ→ㄽ 권장, 타자의 편의성과 효율성을 위함.\r\n  - 초·중성 없이 받침 낱자 입력 : 초성 자음 이용\r\n \r\n⑦ 숫자 및 특수 문자 입력\r\n  - 쿼티 자판과는 숫자와 특수문자, 기호의 위치가 \/와;의 두자리에서만 다름\r\n  - 특수 문자 및 기호 22개 추가 입력 가능(shift키 이용)\r\n  - Shift+n 키에 음절조합중지 키 적용\r\n   · 초성 ㄱ,ㄷ,ㄹ,ㅂ,ㅅ,ㅈ,ㅋ의 반복 입력시 사용, \r\n     예) ‘ㅋㅋ’→ㅋ+Shift+n+ㅋ으로 입력\r\n   · 참신세벌식D 자판에서 받침 없는 음절 다음에 이어서 숫자 2,3,4를 바로 \r\n     입력할 때도 사용,  예)  '표3'→표+Shift+n+3으로 입력",
+    "url" : "https:\/\/doc9107.tistory.com\/67",
+    "id" : "chamSinThreeSetD",
+    "dataVersion" : 19,
+    "name" : "참신세벌식D",
+    "author" : "공빈",
+    "category" : "threeSet",
+    "tags" : [
+      "갈마들이",
+      "신세벌식"
+    ],
+    "copyrightInfo" : "CC BY-NC-ND 4.0"
+  },
+  "outputProcessorLevel" : "basic",
+  "outputProcessorData" : {
+    "showTrailingAsLeading" : false,
+    "virtualJamoRules" : {
+      "vowel" : [
+        501,
+        43,
+        500,
+        21
+      ]
+    },
+    "jamoCompositionRules" : {
+      "vowel" : [
+        {
+          "operandA" : 21,
+          "operandB" : 73
+        },
+        33,
+        {
+          "operandA" : 43,
+          "operandB" : 73
+        },
+        52,
+        {
+          "operandA" : 21,
+          "operandB" : 5
+        },
+        23,
+        {
+          "operandA" : 501,
+          "operandB" : 11
+        },
+        46,
+        {
+          "operandA" : 500,
+          "operandB" : 5
+        },
+        23,
+        {
+          "operandA" : 73,
+          "operandB" : 1
+        },
+        6,
+        {
+          "operandA" : 500,
+          "operandB" : 73
+        },
+        33,
+        {
+          "operandA" : 501,
+          "operandB" : 73
+        },
+        52,
+        {
+          "operandA" : 43,
+          "operandB" : 11
+        },
+        46,
+        {
+          "operandA" : 500,
+          "operandB" : 1
+        },
+        22,
+        {
+          "operandA" : 43,
+          "operandB" : 15
+        },
+        48,
+        {
+          "operandA" : 501,
+          "operandB" : 15
+        },
+        48,
+        {
+          "operandA" : 21,
+          "operandB" : 1
+        },
+        22
+      ],
+      "trailing" : [
+        {
+          "operandA" : 36,
+          "operandB" : 109
+        },
+        58,
+        {
+          "operandA" : 109,
+          "operandB" : 86
+        },
+        94,
+        {
+          "operandA" : 12,
+          "operandB" : 185
+        },
+        23,
+        {
+          "operandA" : 177,
+          "operandB" : 36
+        },
+        64,
+        {
+          "operandA" : 12,
+          "operandB" : 161
+        },
+        20,
+        {
+          "operandA" : 1,
+          "operandB" : 12
+        },
+        20,
+        {
+          "operandA" : 70,
+          "operandB" : 12
+        },
+        51,
+        {
+          "operandA" : 161,
+          "operandB" : 12
+        },
+        20,
+        {
+          "operandA" : 1,
+          "operandB" : 109
+        },
+        7,
+        {
+          "operandA" : 36,
+          "operandB" : 118
+        },
+        58,
+        {
+          "operandA" : 12,
+          "operandB" : 70
+        },
+        51,
+        {
+          "operandA" : 109,
+          "operandB" : 36
+        },
+        58,
+        {
+          "operandA" : 109,
+          "operandB" : 1
+        },
+        7,
+        {
+          "operandA" : 36,
+          "operandB" : 70
+        },
+        47,
+        {
+          "operandA" : 138,
+          "operandB" : 12
+        },
+        23,
+        {
+          "operandA" : 36,
+          "operandB" : 138
+        },
+        66,
+        {
+          "operandA" : 1,
+          "operandB" : 1
+        },
+        2,
+        {
+          "operandA" : 36,
+          "operandB" : 185
+        },
+        66,
+        {
+          "operandA" : 36,
+          "operandB" : 179
+        },
+        65,
+        {
+          "operandA" : 185,
+          "operandB" : 36
+        },
+        66,
+        {
+          "operandA" : 1,
+          "operandB" : 36
+        },
+        37,
+        {
+          "operandA" : 12,
+          "operandB" : 138
+        },
+        23,
+        {
+          "operandA" : 138,
+          "operandB" : 36
+        },
+        66,
+        {
+          "operandA" : 1,
+          "operandB" : 118
+        },
+        7,
+        {
+          "operandA" : 70,
+          "operandB" : 36
+        },
+        47,
+        {
+          "operandA" : 36,
+          "operandB" : 1
+        },
+        37,
+        {
+          "operandA" : 36,
+          "operandB" : 86
+        },
+        51,
+        {
+          "operandA" : 86,
+          "operandB" : 36
+        },
+        51,
+        {
+          "operandA" : 86,
+          "operandB" : 109
+        },
+        94,
+        {
+          "operandA" : 179,
+          "operandB" : 36
+        },
+        65,
+        {
+          "operandA" : 36,
+          "operandB" : 177
+        },
+        64,
+        {
+          "operandA" : 185,
+          "operandB" : 12
+        },
+        23
+      ],
+      "leading" : [
+        {
+          "operandA" : 36,
+          "operandB" : 177
+        },
+        64,
+        {
+          "operandA" : 36,
+          "operandB" : 179
+        },
+        65,
+        {
+          "operandA" : 24,
+          "operandB" : 24
+        },
+        26,
+        {
+          "operandA" : 161,
+          "operandB" : 161
+        },
+        165,
+        {
+          "operandA" : 161,
+          "operandB" : 138
+        },
+        165,
+        {
+          "operandA" : 86,
+          "operandB" : 109
+        },
+        94,
+        {
+          "operandA" : 12,
+          "operandB" : 185
+        },
+        23,
+        {
+          "operandA" : 138,
+          "operandB" : 1
+        },
+        2,
+        {
+          "operandA" : 138,
+          "operandB" : 109
+        },
+        118,
+        {
+          "operandA" : 36,
+          "operandB" : 70
+        },
+        47,
+        {
+          "operandA" : 36,
+          "operandB" : 1
+        },
+        37,
+        {
+          "operandA" : 138,
+          "operandB" : 24
+        },
+        26,
+        {
+          "operandA" : 36,
+          "operandB" : 109
+        },
+        58,
+        {
+          "operandA" : 1,
+          "operandB" : 109
+        },
+        7,
+        {
+          "operandA" : 36,
+          "operandB" : 185
+        },
+        66,
+        {
+          "operandA" : 12,
+          "operandB" : 161
+        },
+        20,
+        {
+          "operandA" : 36,
+          "operandB" : 86
+        },
+        51,
+        {
+          "operandB" : 109,
+          "operandA" : 109
+        },
+        118,
+        {
+          "operandB" : 86,
+          "operandA" : 138
+        },
+        93,
+        {
+          "operandA" : 1,
+          "operandB" : 1
+        },
+        2,
+        {
+          "operandA" : 86,
+          "operandB" : 86
+        },
+        93
+      ]
+    },
+    "hangulAutomataRules" : [
+      1,
+      {
+        "fallbackState" : 0,
+        "description" : "초성",
+        "expression" : "A ? 1 : B ? 2 : C ? 3 : 0"
+      },
+      3,
+      {
+        "fallbackState" : 0,
+        "description" : "[초성] + [중성] + 종성",
+        "expression" : "C ? 3 : 0"
+      },
+      0,
+      {
+        "fallbackState" : 0,
+        "description" : "초기 상태",
+        "expression" : "A ? 1 : B ? 2 : C ? 3 : 0"
+      },
+      2,
+      {
+        "fallbackState" : 0,
+        "description" : "[초성] + 중성",
+        "expression" : "B ? 2 : C ? 3 : 0"
+      }
+    ],
+    "regardCurrentStateAsZeroWhenCompositionFailed" : false,
+    "hangulSyllableConversionByExpressionMethod" : "none",
+    "composableHangulSyllableRange" : "any",
+    "composableHangulSyllableString" : "#H",
+    "shareLeadingAndTrailingRulesForJamoComposition" : false,
+    "doNotApplyFinalConversion" : false,
+    "deleteKeyActions" : {
+      "tier2" : {
+        "preDeletionDetectionMode" : "hangulComposing",
+        "secondaryAction" : "lastInputOfLeastSignificantJamo",
+        "primaryAction" : "syllable",
+        "decomposePreviousHangulOnPrimaryAction" : false,
+        "enableReverseConsonantCarry" : false,
+        "decomposePreviousHangulOnSecondaryAction" : false
+      },
+      "tier4" : {
+        "preDeletionDetectionMode" : "hangulComposing",
+        "secondaryAction" : "syllable",
+        "primaryAction" : "lastInput",
+        "decomposePreviousHangulOnPrimaryAction" : false,
+        "enableReverseConsonantCarry" : false,
+        "decomposePreviousHangulOnSecondaryAction" : false
+      },
+      "tier3" : {
+        "preDeletionDetectionMode" : "hangulComposing",
+        "secondaryAction" : "syllable",
+        "primaryAction" : "lastInput",
+        "decomposePreviousHangulOnPrimaryAction" : false,
+        "enableReverseConsonantCarry" : false,
+        "decomposePreviousHangulOnSecondaryAction" : false
+      },
+      "tier1" : {
+        "preDeletionDetectionMode" : "hangulComposing",
+        "secondaryAction" : "syllable",
+        "primaryAction" : "lastInput",
+        "decomposePreviousHangulOnPrimaryAction" : false,
+        "enableReverseConsonantCarry" : false,
+        "decomposePreviousHangulOnSecondaryAction" : false
+      }
+    },
+    "shareLeadingAndTrailingRulesForVirtualJamo" : false,
+    "conversionTargetForwardingMethod" : "none"
+  },
+  "inputProcessorData" : {
+    "layoutName" : "참신세벌식D",
+    "allowAssigningToHangulCompositionStateVariable" : false,
+    "isSpecialLayout" : false,
+    "expressionOnInputStop" : "0",
+    "supportsLargePad" : true,
+    "hangulCompositionPreservingMode" : "never",
+    "supportsMac" : true,
+    "largePadKeyboardData" : [
+      [
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 50
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 50,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 18,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 18,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 19,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 19
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 20
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 20,
+                  "modifierFlags" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 21
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 21
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 23
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 23,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 22,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 22
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 26,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 26
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 28
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 28,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 25
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 25,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 29,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 29
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 27,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 27
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 24
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 24,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "specialKey",
+            "special" : {
+              "delete" : {
+
+              }
+            }
+          },
+          "width" : 1.5
+        }
+      ],
+      [
+        {
+          "keyData" : {
+            "special" : {
+              "tab" : {
+
+              }
+            },
+            "kind" : "specialKey"
+          },
+          "width" : 1.5
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 12,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 12,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 13
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 13
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 14,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 14,
+                  "modifierFlags" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 15,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 15,
+                  "modifierFlags" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 17,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 17,
+                  "modifierFlags" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 16
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 16
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 32,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 32,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 34,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 34
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 31
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 31
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 35,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 35,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 33
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 33
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 30,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 30,
+                  "modifierFlags" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 42,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 42
+                }
+              }
+            }
+          }
+        }
+      ],
+      [
+        {
+          "keyData" : {
+            "kind" : "specialKey",
+            "special" : {
+              "caps" : {
+
+              }
+            }
+          },
+          "width" : 1.75
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 0
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 1,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 3,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 3,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 5,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 5,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 4
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 4,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 38
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 38
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 40
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 40,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 37
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 37
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 41
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 41
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 39,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 39,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "specialKey",
+            "special" : {
+              "return" : {
+
+              }
+            }
+          },
+          "width" : 1.75
+        }
+      ],
+      [
+        {
+          "keyData" : {
+            "special" : {
+              "shift" : {
+
+              }
+            },
+            "kind" : "specialKey"
+          },
+          "width" : 2.25
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 6
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 6,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 7
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 7,
+                  "modifierFlags" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 8
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 8
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 9,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 9,
+                  "modifierFlags" : 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 11,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 11
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 2,
+                  "keyCode" : 45
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 45,
+                  "modifierFlags" : 0
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 46,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 46,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "modifierFlags" : 0,
+                  "keyCode" : 43
+                }
+              }
+            },
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 43,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "kind" : "regularKey"
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 47,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 47,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "regularKey",
+            "shift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 44,
+                  "modifierFlags" : 2
+                }
+              }
+            },
+            "noshift" : {
+              "mapped" : {
+                "_0" : {
+                  "keyCode" : 44,
+                  "modifierFlags" : 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "keyData" : {
+            "kind" : "specialKey",
+            "special" : {
+              "shift" : {
+
+              }
+            }
+          },
+          "width" : 2.25
+        }
+      ],
+      [
+
+      ]
+    ],
+    "useRandomNumber" : false,
+    "supportsPhone" : false,
+    "virtualKeyboardType" : "default",
+    "prefixExpression" : "0",
+    "supportsMiniPad" : false,
+    "postfixExpression" : "0",
+    "saveConcurrentHangulInputTime" : false,
+    "expressionForAdvancedKeys" : "0",
+    "narrowNumberRowOnLargePad" : true,
+    "expressionForBasicKeys" : "0",
+    "setNonHangulStateToVariable" : false,
+    "expressionOnCompositionEnd" : "0",
+    "supportsPad" : false,
+    "physicalKeyboardData" : [
+      {
+        "keyCode" : 4,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2A09"
+      },
+      {
+        "keyCode" : 15,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x300F"
+      },
+      {
+        "keyCode" : 3,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x201D"
+      },
+      {
+        "keyCode" : 41,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x3A"
+      },
+      {
+        "keyCode" : 39,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x27"
+      },
+      {
+        "keyCode" : 0,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "!E || !D&&E==0x22&&!F ? H3|YO : H3|_M"
+      },
+      {
+        "keyCode" : 0,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2018"
+      },
+      {
+        "keyCode" : 50,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x7E"
+      },
+      {
+        "keyCode" : 17,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x25A1"
+      },
+      {
+        "keyCode" : 16,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "H3|C_"
+      },
+      {
+        "keyCode" : 17,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "!E || !D&&E==0x10&&!F ? H3|YEO : H3|_C"
+      },
+      {
+        "keyCode" : 11,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x25B3"
+      },
+      {
+        "keyCode" : 2,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "!E || E>=0x1F4&&E<=0x1F6 || !D&&(E==6 || E==0x15 || E==0x2B || E==0x49)&&!F ? H3|I_ : H3|_Q"
+      },
+      {
+        "keyCode" : 16,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x203B"
+      },
+      {
+        "keyCode" : 21,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "D&&E&&(!F || F==0x24) ? H3|_P : 0x34"
+      },
+      {
+        "keyCode" : 38,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0xB7"
+      },
+      {
+        "keyCode" : 23,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x35"
+      },
+      {
+        "keyCode" : 34,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2192"
+      },
+      {
+        "keyCode" : 5,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "H3|O_"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 25
+      },
+      {
+        "actionExpression" : "0x39"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 38
+      },
+      {
+        "actionExpression" : "H3|Q_"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 2
+      },
+      {
+        "actionExpression" : "0x201C"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 13
+      },
+      {
+        "actionExpression" : "!E || !D&&E==0x47&&!F ? H3|EUI : H3|_R"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 42
+      },
+      {
+        "actionExpression" : "0x7C"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 9
+      },
+      {
+        "actionExpression" : "0x300B"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 44
+      },
+      {
+        "actionExpression" : "H3|P_"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 7
+      },
+      {
+        "actionExpression" : "0x3009"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 43
+      },
+      {
+        "actionExpression" : "0x2C"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 50
+      },
+      {
+        "actionExpression" : "0x60"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 23
+      },
+      {
+        "actionExpression" : "0x25"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 33
+      },
+      {
+        "actionExpression" : "0x7B"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 6
+      },
+      {
+        "actionExpression" : "!E || !D&&E==0x14&&!F ? H3|YE : H3|_B"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 31
+      },
+      {
+        "actionExpression" : "!T || E ? H3|R_ : H3|0x1F40000"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 37
+      },
+      {
+        "actionExpression" : "0x2F"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 15
+      },
+      {
+        "actionExpression" : "!E || !D&&(E==0x2B || E==0x2E || E==0x30 || E==0x34)&&!F ? H3|U_ : H3|_T"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 12
+      },
+      {
+        "actionExpression" : "0x300C"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 33
+      },
+      {
+        "actionExpression" : "0x5B"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 24
+      },
+      {
+        "actionExpression" : "0x3D"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 8
+      },
+      {
+        "actionExpression" : "!E || !D&&E==0x40&&!F ? H3|EU : H3|_H"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 30
+      },
+      {
+        "actionExpression" : "0x7D"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 3
+      },
+      {
+        "actionExpression" : "!E || E==0x1F4 || !D&&(E==1 || E==0x15 || E==0x49)&&!F ? H3|A_ : H3|_K"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 18
+      },
+      {
+        "actionExpression" : "0x21"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 41
+      },
+      {
+        "actionExpression" : "H3|B_"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 34
+      },
+      {
+        "actionExpression" : "H3|D_"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 30
+      },
+      {
+        "actionExpression" : "0x5D"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 14
+      },
+      {
+        "actionExpression" : "0x300E"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 45
+      },
+      {
+        "actionExpression" : "H3|J_"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 39
+      },
+      {
+        "actionExpression" : "0x22"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 32
+      },
+      {
+        "actionExpression" : "0x2190"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 40
+      },
+      {
+        "actionExpression" : "H3|G_"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 35
+      },
+      {
+        "actionExpression" : "0x3B"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 14
+      },
+      {
+        "actionExpression" : "!E || E==0x1F5 || !D&&(E==0xF || E==0x2B)&&!F ? H3|E_ : H3|_G"
+      },
+      {
+        "modifierFlags" : 0,
+        "keyCode" : 32
+      },
+      {
+        "actionExpression" : "H3|M_"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 21
+      },
+      {
+        "actionExpression" : "0x24"
+      },
+      {
+        "modifierFlags" : 2,
+        "keyCode" : 20
+      },
+      {
+        "actionExpression" : "0x23"
+      },
+      {
+        "keyCode" : 8,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x300A"
+      },
+      {
+        "keyCode" : 1,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2019"
+      },
+      {
+        "keyCode" : 43,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x3C"
+      },
+      {
+        "keyCode" : 1,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "!E || E==0x1F4 || !D&&(E==5 || E==0x15)&&!F ? H3|AE : H3|_N"
+      },
+      {
+        "keyCode" : 19,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x40"
+      },
+      {
+        "keyCode" : 47,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x3E"
+      },
+      {
+        "keyCode" : 11,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "D&&!E ? H3|YA : H3|K_"
+      },
+      {
+        "keyCode" : 46,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "H3|N_"
+      },
+      {
+        "keyCode" : 29,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x30"
+      },
+      {
+        "keyCode" : 4,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "H3|H_"
+      },
+      {
+        "keyCode" : 29,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x29"
+      },
+      {
+        "keyCode" : 26,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x37"
+      },
+      {
+        "keyCode" : 31,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2014"
+      },
+      {
+        "keyCode" : 40,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2026"
+      },
+      {
+        "keyCode" : 12,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "!E || !D&&E==0x36&&!F ? H3|YU : H3|_SS"
+      },
+      {
+        "keyCode" : 22,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x5E"
+      },
+      {
+        "keyCode" : 20,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "D&&E&&!F ? H3|_D : 0x33"
+      },
+      {
+        "keyCode" : 27,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x2D"
+      },
+      {
+        "keyCode" : 24,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2B"
+      },
+      {
+        "keyCode" : 26,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x26"
+      },
+      {
+        "keyCode" : 22,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x36"
+      },
+      {
+        "keyCode" : 28,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x2A"
+      },
+      {
+        "keyCode" : 9,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "H3|EO"
+      },
+      {
+        "keyCode" : 13,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x300D"
+      },
+      {
+        "keyCode" : 46,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "H3|F_"
+      },
+      {
+        "keyCode" : 5,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x25CB"
+      },
+      {
+        "keyCode" : 6,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x3008"
+      },
+      {
+        "keyCode" : 27,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x5F"
+      },
+      {
+        "keyCode" : 28,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x38"
+      },
+      {
+        "keyCode" : 19,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "D&&E&&(!F || F==0xC) ? H3|_J : 0x32"
+      },
+      {
+        "keyCode" : 18,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x31"
+      },
+      {
+        "keyCode" : 42,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "0x5C"
+      },
+      {
+        "keyCode" : 7,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "!E || !D&&E==0xA&&!F ? H3|YAE : H3|_S"
+      },
+      {
+        "keyCode" : 25,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x28"
+      },
+      {
+        "keyCode" : 47,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "!T || E ? 0x2E : H3|0x1F50000"
+      },
+      {
+        "keyCode" : 44,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "0x3F"
+      },
+      {
+        "keyCode" : 35,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "H3|T_"
+      },
+      {
+        "keyCode" : 37,
+        "modifierFlags" : 0
+      },
+      {
+        "actionExpression" : "H3|S_"
+      },
+      {
+        "keyCode" : 45,
+        "modifierFlags" : 2
+      },
+      {
+        "actionExpression" : "C0|0xE"
+      }
+    ]
+  },
+  "supportsOldHangul" : true
+}
