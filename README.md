@@ -18,7 +18,7 @@
 
 ## 설치
 
-1. [다운로드 페이지](https://github.com/KangWH/Tadak-public/releases/tag/0.1.3)에서 최신 버전의 설치 파일(`Tadak-macOS-0.1.3.pkg`)을 내려받은 다음 실행합니다.
+1. [다운로드 페이지](https://github.com/KangWH/Tadak-public/releases/tag/0.2.0)에서 최신 버전의 설치 파일(`Tadak-macOS-0.2.0.pkg`)을 내려받은 다음 실행합니다.
 1. 화면의 안내를 따라 설치를 완료합니다. 설치 위치는 변경하면 안 됩니다.
 1. 설치가 완료되면 Mac을 재시동합니다.
 1. ‘시스템 설정’ → ‘키보드’ → 입력 소스 오른쪽의 ‘편집...’을 클릭한 뒤 ‘타닥’을 추가합니다.
@@ -65,6 +65,10 @@ pkill -9 Tadak-macOS
   - 세모이 (이어치기)
   - 세모이 옛한글 (모아치기)
   - 세모이 옛한글 (이어치기)
+  - 안마태 소리 글판 (모아치기) (0.2.0부터 지원)
+  - 안마태 소리 글판 (이어치기) (0.2.0부터 지원)
+  - 안마태 310 소리 글판 (모아치기) (0.2.0부터 지원)
+  - 안마태 310 소리 글판 (이어치기) (0.2.0부터 지원)
 - **로마자-한글 입력**
   - 한컴 쿼티
   - 한컴 드보락
@@ -129,8 +133,7 @@ sudo rm -rf "/Library/Input Methods/Tadak-macOS.app"
 ## 알려진 문제
 
 타닥은 현재 베타 버전입니다. 일부 정상적으로 작동하지 않는 부분이 있습니다.
-- 다른 입력기에서 타닥으로 전환 시, `control-space` 등을 사용하면 다음 `space` 키 입력이 무시될 수 있습니다.
-- 키를 떼는 이벤트가 정상적으로 인식되지 않을 수 있습니다. 일반적으로는 문제되지 않지만, 세모이 (모아치기) 배열을 사용하는 경우 모든 키를 떼어도 음절 조합이 종료되지 않을 수 있습니다. 이 경우 다른 배열이나 다른 입력기로 전환하면 정상적으로 사용할 수 있습니다.
+- 키를 떼는 이벤트가 정상적으로 인식되지 않을 수 있습니다. 일반적으로는 문제되지 않지만, 모아치기 배열을 사용하는 경우 모든 키를 떼어도 음절 조합이 종료되지 않을 수 있습니다. 이 경우 다른 배열이나 다른 입력기로 전환했다 돌아오면 정상적으로 사용할 수 있습니다.
 - macOS 기본 터미널 앱에서 키를 떼는 이벤트가 정상적으로 작동하지 않습니다. iTerm2에서는 정상적으로 작동합니다.
 - 날개셋 한글 입력기의 모든 동작이 동일하게 동작하지는 않습니다.
 
@@ -139,7 +142,7 @@ sudo rm -rf "/Library/Input Methods/Tadak-macOS.app"
 
 ## 날개셋 한글 입력기와의 호환성
 
-타탁 0.1.2의 내부 조합 엔진은 날개셋 한글 입력기 버전 10.85를 기준으로 개발되었습니다.
+타탁 0.2.0의 내부 조합 엔진은 날개셋 한글 입력기 버전 10.85를 기준으로 개발되었습니다.
 동작 호환성은 [별도의 표](NalgaesetCompatibility.md)를 통해 확인할 수 있습니다.
 
 
@@ -157,11 +160,10 @@ sudo rm -rf "/Library/Input Methods/Tadak-macOS.app"
   - 연속 변환 기능 (일본어·중국어 입력기나, 날개셋 한글 입력기의 ‘조합 안에 조합 생성’과 비슷한 기능)
 - **Tadak-iOS**
   - 더 많은 기본 키보드 추가
-  - 키 휙 넘기기 기능 구현 (iPad)
   - 스마트 구두점 기능 구현
-  - 텍스트 대치 및 자동 완성 기능
+  - 텍스트 자동 완성 기능
   - 키를 길게 터치했을 때 팔레트 기능
-- **Tadak-editor** (개발 중, 7월 중 베타 공개 예정)
+- **Tadak-editor** (개발 중)
   - 키보드 데이터 편집기
 
 
@@ -210,6 +212,7 @@ Tadak-macOS나 Tadak-iOS를 사용하다 버그가 발생한 경우, 페이지 �
 
 ## 오픈소스 라이선스
 
-이 앱은 [`libhangul`](https://github.com/libhangul/libhangul)의 한자 사전 데이터와 [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) 서체를 사용합니다.
+이 앱은 [`libhangul`](https://github.com/libhangul/libhangul)의 한자 사전 데이터와 [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) 서체, [`LTMorphingLabel`](https://github.com/lexrus/ltmorphinglabel)을 사용합니다.
 - [libhangul 한자 데이터](https://github.com/libhangul/libhangul/blob/a34aef73378c0992316861bbf13fc914ee7577d9/data/hanja/hanja.txt): BSD 3-Clause License
 - [Source Han Sans 서체](https://github.com/adobe-fonts/source-han-sans/blob/0b993716f6910f0c8e00f957c767ab3cf5cb7602/LICENSE.txt): SIL Open Font License 1.1
+- [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel/blob/bf629bd1ea03d92a1a2673bb2689a4ed2981e7b7/LICENSE): MIT License
