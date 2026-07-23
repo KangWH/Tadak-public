@@ -195,6 +195,7 @@ sudo rm -rf "/Library/Input Methods/Tadak-macOS.app"
   - 스마트 구두점 기능 구현
   - 텍스트 자동 완성 기능
   - 키를 길게 터치했을 때 팔레트 기능
+  - Shift 키를 연타하여 caps lock 활성화
 - **Tadak-editor** (개발 중)
   - 키보드 데이터 편집기
 
