@@ -15,12 +15,12 @@
   },
   "apps": {
     "macos": {
-      "latest": "0.3.0",
+      "latest": "0.3.1",
       "latestBuild": 5,
       "minimum": "0.2.0"
     },
     "ios": {
-      "latest": "0.3.0",
+      "latest": "0.3.1",
       "latestBuild": 18,
       "minimum": "0.2.0"
     },
