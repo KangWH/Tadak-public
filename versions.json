@@ -16,12 +16,12 @@
   "apps": {
     "macos": {
       "latest": "0.3.1",
-      "latestBuild": 5,
+      "latestBuild": 6,
       "minimum": "0.2.0"
     },
     "ios": {
       "latest": "0.3.1",
-      "latestBuild": 18,
+      "latestBuild": 19,
       "minimum": "0.2.0"
     },
     "editor": {
