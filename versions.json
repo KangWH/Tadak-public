@@ -1,6 +1,6 @@
 {
   "framework": {
-    "latest": "0.3.0",
+    "latest": "0.4.0",
     "readableFormat": {
       "minimum": 1,
       "maximum": 2
@@ -15,19 +15,19 @@
   },
   "apps": {
     "macos": {
-      "latest": "0.3.1",
+      "latest": "0.4.0",
       "latestBuild": 6,
       "minimum": "0.2.0"
     },
     "ios": {
-      "latest": "0.3.1",
+      "latest": "0.4.0",
       "latestBuild": 19,
       "minimum": "0.2.0"
     },
     "editor": {
-      "latest": "0.3.0",
+      "latest": "0.4.0",
       "latestBuild": 1,
-      "minimum": "0.3.0"
+      "minimum": "0.4.0"
     }
   }
 }
