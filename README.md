@@ -20,7 +20,7 @@
 
 ### macOS
 
-1. [다운로드 페이지](https://github.com/KangWH/Tadak-public/releases/tag/0.3.1)에서 최신 버전의 설치 파일(`Tadak-macOS-0.3.1.pkg`)을 내려받은 다음 실행합니다.
+1. [다운로드 페이지](https://github.com/KangWH/Tadak-public/releases/tag/0.4.0)에서 최신 버전의 설치 파일(`Tadak-macOS-0.4.0.pkg`)을 내려받은 다음 실행합니다.
 1. 화면의 안내를 따라 설치를 완료합니다. 설치 위치는 변경하면 안 됩니다.
 1. 설치가 완료되면 Mac을 재시동합니다.
 1. ‘시스템 설정’ → ‘키보드’ → 입력 소스 오른쪽의 ‘편집...’을 클릭한 뒤 ‘타닥’을 추가합니다.
