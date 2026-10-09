@@ -25,17 +25,14 @@ Navilera 님께서 개발하신, 두벌식 배열 기반 세벌식 [318Na](https
 
 ### 참신세벌식
 공빈(소유) 님께서 개발하신 [참신세벌식](https://cafe.daum.net/3bulsik/JMKX/182) 배열입니다.
-* 버전: 18 (원본 데이터 2026.02.12., 타닥용 데이터 2026.06.06. 업데이트)
-* 지원 기기: Mac, iPad (13인치)
-* 라이선스: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+* 버전: 18 (원본 데이터 2026.02.12., 타닥용 데이터 2026.10.09. 업데이트)
+* 지원 기기: 전체
 * [다운로드](https://cdn.jsdelivr.net/gh/KangWH/Tadak-public@main/Keyboards/chamSinThreeSet.tadak?download)
-* **주의**: 타닥에서의 정상 작동 여부가 아직 완전히 확인되지 않았습니다.
 
 ### 참신세벌식D
 공빈(소유) 님께서 개발하신 [참신세벌식D](https://cafe.daum.net/3bulsik/JMKX/182) 배열입니다.
 * 버전: 19 (원본 데이터 2026.02.12., 타닥용 데이터 2026.06.06. 업데이트)
 * 지원 기기: Mac, iPad (13인치)
-* 라이선스: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
 * [다운로드](https://cdn.jsdelivr.net/gh/KangWH/Tadak-public@main/Keyboards/chamSinThreeSetD.tadak?download)
 * **주의**: 타닥에서의 정상 작동 여부가 아직 완전히 확인되지 않았습니다.
 
